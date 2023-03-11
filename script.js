@@ -6,6 +6,8 @@ const wrapper = document.querySelector(".wrapper"),
     weatherPart = wrapper.querySelector(".weather-part"),
     wIcon = weatherPart.querySelector("img"),
     arrowBack = wrapper.querySelector("header i");
+
+// From https://openweathermap.org/current and https://home.openweathermap.org/users
 const apiKey = "cdcfdad75f2272984137391f1109f427";
 
 let api;
